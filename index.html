@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Train!!!</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+
+    <header>
+    <h1> Train Scheduler!!!</h1>
+    </header>
+
+
+    <h5> Current Train Schedule</h5>
+    <table class="table .table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency(min)</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5> Add Train</h5>
+          <form>
+                <div class="form-group">
+                  <label for="usr">Train Name</label>
+                  <input type="text" class="form-control" id="trainName">
+                </div>
+                <div class="form-group">
+                        <label for="usr">destination</label>
+                        <input type="text" class="form-control" id="destination">
+                      </div>
+                <div class="form-group">
+                  <label for="usr">First Train Time (HH:mm - military time)</label>
+                  <input type="text" class="form-control" id="firstTrainTime">
+                </div>
+                <div class="form-group">
+                        <label for="usr">Frequency</label>
+                        <input type="text" class="form-control" id="frequency">
+                      </div>
+            <div class="form-group">
+
+                  <input type="submit" id="submitbutton">
+                </div>
+              </form>
+   
+
+   
+    <script type="text/javascript" 
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="./assets/javascript/train.js"></script>
+  </body>
+</html>
