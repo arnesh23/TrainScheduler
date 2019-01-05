@@ -1,0 +1,21 @@
+header {
+    text-align:center;
+    background-color:teal;
+    font:90px;
+    margin:10px;
+
+}
+
+h5 {
+    text-align:center;
+    background-color: teal;
+    margin:10px;
+
+}
+
+#submitbutton {
+    background-color:teal;
+    text-align:center;
+    margin-left:50%;
+   
+}
